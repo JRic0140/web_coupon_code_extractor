@@ -66,6 +66,8 @@ impl WebCodeExtractorTrait for WebCodeExtractor {
         // self.coupon_code_from_the_page = format!("Extracted code from {}", self.url);
     }
 
+
+    /// Get the information of the an specific coupon code
     fn get_code_Info(&self, code_name: String) -> CouponCode {
             self.coupon_code_from_the_page.iter().find(|coupon| coupon.code_name == code_name)
                 .cloned()
