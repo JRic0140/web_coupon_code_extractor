@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="4.0"/>
+  <object class="GtkApplicationWindow" id="main_window">
+    <property name="default-width">320</property>
+    <property name="default-height">200</property>
+    <property name="title">Hello, World!</property>
+    <child>
+      <object class="GtkLabel" id="label">
+        <property name="label">Hello, World!</property>
+      </object>
+    </child>
+  </object>
+</interface>
