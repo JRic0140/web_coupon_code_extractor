@@ -4,3 +4,29 @@
     margin:15px 0;
 
 }
+.button-nav{
+    min-width: 100px;
+    min-height: 50px;
+    width: 95%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px sold rgb(0, 0, 0);
+    /* padding:32px; */
+    text-align: right;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 5px 15px;
+    cursor: pointer;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: none;
+    cursor: pointer;
+}	
+.button-nav:hover{
+    background: none;
+}
+.nav-container{
+    min-width: 110px;
+}
